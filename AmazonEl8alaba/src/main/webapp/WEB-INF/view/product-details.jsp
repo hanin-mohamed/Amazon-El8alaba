@@ -18,7 +18,7 @@
                     <p class="card-text">Available: ${product.productDetails.available ? 'Yes' : 'No'}</p>
                 </div>
             </div>
-            <a href="/products/list" class="btn btn-primary mt-3">Back to List</a>
+            <a href="/" class="btn btn-primary mt-3">Back to List</a>
         </div>
     </div>
 </div>

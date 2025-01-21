@@ -7,13 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
 import java.util.List;
 
 @Controller
-@RequestMapping("/products")
 public class ProductController {
 
     @Autowired
@@ -22,15 +19,15 @@ public class ProductController {
     @GetMapping("/addProduct")
     public String showAddForm(Model model) {
         Product product = new Product();
-        product.setProductDetails(new ProductDetails()); // Initialize ProductDetails
+        product.setProductDetails(new ProductDetails());
         model.addAttribute("product", product);
         return "add-product";
     }
 
     @PostMapping("/processAddProduct")
-    public String addProduct(@ModelAttribute("product") Product product){
+    public String addProduct(@ModelAttribute("product") Product product) {
         productService.addProduct(product);
-        return "redirect:/products/list";
+        return "redirect:/";
     }
 
     @GetMapping("/updateProduct")
@@ -39,16 +36,18 @@ public class ProductController {
         model.addAttribute("product", product);
         return "update-product";
     }
+
+    @PostMapping("/processUpdateProduct")
+    public String updateProduct(@ModelAttribute("product") Product product) {
+        productService.updateProduct(product);
+        return "redirect:/";
+    }
+
     @GetMapping("/list")
     public String listProducts(Model model) {
         List<Product> products = productService.getAllProducts();
         model.addAttribute("products", products);
         return "all-products";
-    }
-    @PostMapping("/processUpdateProduct")
-    public String updateProduct(@ModelAttribute("product") Product product){
-        productService.updateProduct(product);
-        return "redirect:/products/list";
     }
 
     @GetMapping("/productDetails")
@@ -56,5 +55,11 @@ public class ProductController {
         Product product = productService.findById(id);
         model.addAttribute("product", product);
         return "product-details";
+    }
+
+    @GetMapping("/deleteProduct")
+    public String deleteProduct(@RequestParam("productId") int id) {
+        productService.deleteProduct(id);
+        return "redirect:/";
     }
 }

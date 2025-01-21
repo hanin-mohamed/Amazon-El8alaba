@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 @Repository
 public class ProductDAOImp implements ProductDAO {
 
-    private static final Logger logger = Logger.getLogger(ProductDAOImp.class.getName());
+    private static final Logger logger = Logger.getLogger(com.adminPanel.app.dao.ProductDAOImp.class.getName());
 
     @Autowired
     private SessionFactory sessionFactory;

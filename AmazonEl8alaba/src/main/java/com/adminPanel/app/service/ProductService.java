@@ -11,8 +11,11 @@ import java.util.List;
 @Service
 public class ProductService {
 
-    @Autowired
-    private ProductDAO productDAO;
+    private final ProductDAO productDAO;
+
+    public ProductService(ProductDAO productDAO) {
+        this.productDAO = productDAO;
+    }
 
     @Transactional
     public void addProduct(Product product) {
@@ -29,7 +32,7 @@ public class ProductService {
         return productDAO.findProductById(id);
     }
 
-    @Transactional
+    @Transactional(readOnly = true)
     public List<Product> getAllProducts() {
         return productDAO.getAllProducts();
     }

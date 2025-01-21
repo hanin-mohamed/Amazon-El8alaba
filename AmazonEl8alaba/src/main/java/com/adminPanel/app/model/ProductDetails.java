@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
+
 @Entity
 @Table(name = "ProductDetails")
 @Setter
@@ -17,6 +18,8 @@ public class ProductDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+
+    @Temporal(TemporalType.DATE)
     @Column(name = "expiration_date")
     private Date expiryDate;
 
@@ -28,10 +31,6 @@ public class ProductDetails {
 
     @Column(name = "available")
     private boolean isAvailable;
-
-//    @Lob
-//    @Column(name = "image")
-//    private byte[] image;
 
     @OneToOne(mappedBy = "productDetails")
     private Product product;
