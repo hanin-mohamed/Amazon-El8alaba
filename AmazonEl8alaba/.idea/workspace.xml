@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92e24c2e-b6d5-4773-b9ac-30ad79fc4299" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/highlightedFiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-01-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/catalina.2025-01-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/host-manager.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/host-manager.2025-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/host-manager.2025-01-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/host-manager.2025-01-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost.2025-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost.2025-01-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost.2025-01-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost_access_log.2025-01-18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost_access_log.2025-01-19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost_access_log.2025-01-20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost_access_log.2025-01-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/manager.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/manager.2025-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/manager.2025-01-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/manager.2025-01-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/dao/ProductDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/dao/ProductDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/model/ProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/model/ProductDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/update-product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/update-product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/highlightedFiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/jpa-buddy-datasource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.jpb/jpb-settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/jaspic-providers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/jaspic-providers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/tomcat-users.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/.smarttomcat/Amazon/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/Catalina/localhost/ROOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/jaspic-providers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/jaspic-providers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/tomcat-users.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/logs/catalina.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/logs/host-manager.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/logs/localhost.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/logs/localhost_access_log.2025-01-18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/logs/manager.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/sql_script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/java/com/adminPanel/app/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/java/com/adminPanel/app/dao/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/java/com/adminPanel/app/dao/ProductDAOImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/java/com/adminPanel/app/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/java/com/adminPanel/app/model/ProductDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/webapp/WEB-INF/application-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/webapp/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonProject/src/main/webapp/resources/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sql_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../sql_script.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2cBHYuJq8mUrFvt6VxFVVoD7nJG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.Amazon [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Amazon [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SpringMvcCrudApp [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SpringMvcCrudApp [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Learning/REPOs/Amazon/AmazonEl8alaba/src/main/webapp/resources/css&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Learning\REPOs\Amazon\AmazonEl8alaba\src\main\webapp\resources\css" />
+      <recent name="F:\Learning\REPOs\Amazon\AmazonEl8alaba\src\main\webapp\WEB-INF\view" />
+      <recent name="D:\Spring Training\Spring MVC\SpringMvcCrudApp\src\main\resources" />
+      <recent name="D:\Spring Training\Spring MVC\SpringMvcCrudApp\src\main\webapp\WEB-INF\view" />
+      <recent name="D:\Spring Training\Spring MVC\SpringMvcCrudApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spring Training\Spring MVC\SpringMvcCrudApp\src\main\webapp" />
+      <recent name="D:\Spring Training\Spring MVC\SpringMvcCrudApp\src\main\java\com\adminPanel\app" />
+      <recent name="D:\Spring Training\Spring MVC\SpringMvcCrudApp\src\main\webapp\WEB-INF\view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adminPanel.app.model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\pc\.SmartTomcat\AmazonEl8alaba\Amazon" />
+      <option name="contextPath" value="/Amazon" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.91" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/Tomcat 9.0" />
+          <option name="version" value="9.0.91.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92e24c2e-b6d5-4773-b9ac-30ad79fc4299" name="Changes" comment="" />
+      <created>1707578103334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707578103334</updated>
+      <workItem from="1707578104353" duration="3583000" />
+      <workItem from="1737153172037" duration="2503000" />
+      <workItem from="1737155992748" duration="76000" />
+      <workItem from="1737156084368" duration="5261000" />
+      <workItem from="1737162904448" duration="180000" />
+      <workItem from="1737224618326" duration="4878000" />
+      <workItem from="1737289528660" duration="16664000" />
+      <workItem from="1737392566195" duration="6056000" />
+      <workItem from="1737400172199" duration="895000" />
+      <workItem from="1737401236817" duration="3437000" />
+      <workItem from="1737405431390" duration="1297000" />
+      <workItem from="1737407285489" duration="1955000" />
+      <workItem from="1737441976447" duration="5157000" />
+      <workItem from="1737452354818" duration="1597000" />
+      <workItem from="1737481155850" duration="2776000" />
+      <workItem from="1737486192804" duration="4163000" />
+      <workItem from="1737490444697" duration="228000" />
+      <workItem from="1737491010262" duration="1147000" />
+      <workItem from="1737492223170" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -7,7 +7,7 @@ import lombok.Setter;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Product")
+@Table(name = "product")
 @Setter
 @Getter
 @NoArgsConstructor
@@ -20,7 +20,6 @@ public class Product {
     @Column(name = "name")
     private String productName;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "product_details_id")
+    @OneToOne(mappedBy = "product", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private ProductDetails productDetails;
 }

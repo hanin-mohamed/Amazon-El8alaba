@@ -15,6 +15,6 @@ CREATE TABLE ProductDetails (
                                 manufacturer VARCHAR(255) NOT NULL,
                                 price DECIMAL(10, 2) NOT NULL,
                                 available BOOLEAN NOT NULL,
-                                image LONGBLOB,
+                                -- image LONGBLOB,
                                 CONSTRAINT fk_product FOREIGN KEY (id) REFERENCES Product(id)
 );

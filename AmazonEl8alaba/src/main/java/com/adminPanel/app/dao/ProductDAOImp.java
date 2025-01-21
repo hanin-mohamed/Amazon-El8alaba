@@ -9,11 +9,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.logging.Logger;
-
 @Repository
+@Transactional
 public class ProductDAOImp implements ProductDAO {
 
-    private static final Logger logger = Logger.getLogger(com.adminPanel.app.dao.ProductDAOImp.class.getName());
+    private static final Logger logger = Logger.getLogger(ProductDAOImp.class.getName());
 
     private final SessionFactory sessionFactory;
 
@@ -23,7 +23,6 @@ public class ProductDAOImp implements ProductDAO {
     }
 
     @Override
-    @Transactional
     public void addProduct(Product product) {
         Session session = sessionFactory.getCurrentSession();
         session.save(product);
@@ -31,7 +30,6 @@ public class ProductDAOImp implements ProductDAO {
     }
 
     @Override
-    @Transactional
     public void updateProduct(Product product) {
         Session session = sessionFactory.getCurrentSession();
         session.update(product);
@@ -39,7 +37,6 @@ public class ProductDAOImp implements ProductDAO {
     }
 
     @Override
-    @Transactional
     public void deleteProduct(int id) {
         Session session = sessionFactory.getCurrentSession();
         Product product = session.get(Product.class, id);
@@ -53,7 +50,6 @@ public class ProductDAOImp implements ProductDAO {
     }
 
     @Override
-    @Transactional
     public Product findProductById(int id) {
         Session session = sessionFactory.getCurrentSession();
         Product product = session.get(Product.class, id);
@@ -66,7 +62,6 @@ public class ProductDAOImp implements ProductDAO {
     }
 
     @Override
-    @Transactional
     public List<Product> getAllProducts() {
         Session session = sessionFactory.getCurrentSession();
         List<Product> products = session.createQuery("from Product", Product.class).getResultList();
