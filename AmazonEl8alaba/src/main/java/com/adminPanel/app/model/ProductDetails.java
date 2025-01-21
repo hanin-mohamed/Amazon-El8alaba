@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "product_details")
+@Table(name = "ProductDetails")
 @Setter
 @Getter
 @NoArgsConstructor
@@ -17,6 +17,7 @@ public class ProductDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
 
     @Temporal(TemporalType.DATE)
     @Column(name = "expiration_date")
@@ -31,7 +32,6 @@ public class ProductDetails {
     @Column(name = "available")
     private boolean isAvailable;
 
-    @OneToOne
-    @JoinColumn(name = "product_id")
+    @OneToOne(mappedBy = "productDetails")
     private Product product;
 }

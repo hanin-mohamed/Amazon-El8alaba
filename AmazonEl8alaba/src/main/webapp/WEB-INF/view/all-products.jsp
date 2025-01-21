@@ -20,6 +20,10 @@
                     <p class="card-text">Manufacturer: ${product.productDetails.manufacturer}</p>
                     <p class="card-text">Price: ${product.productDetails.price}</p>
                     <p class="card-text">Available: ${product.productDetails.available ? 'Yes' : 'No'}</p>
+                    <!-- لو عندك صورة -->
+                    <c:if test="${not empty product.productDetails.image}">
+                        <img src="data:image/jpeg;base64,${product.productDetails.image}" alt="Product Image" class="img-fluid" />
+                    </c:if>
                 </div>
             </div>
             <a href="/products/list" class="btn btn-primary mt-3">Back to List</a>
