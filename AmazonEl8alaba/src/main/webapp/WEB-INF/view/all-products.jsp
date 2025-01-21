@@ -26,8 +26,8 @@
                     </c:if>
                 </div>
             </div>
-            <a href="/" class="btn btn-primary mt-3">Back to List</a>
-            <a href="/updateProduct?productId=${product.id}" class="btn btn-warning mt-3">Edit Product</a>
+            <a href="/products/list" class="btn btn-primary mt-3">Back to List</a>
+            <a href="/products/updateProduct?productId=${product.id}" class="btn btn-warning mt-3">Edit Product</a>
         </div>
     </div>
 </div>

@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Update Product</h1>
-<form:form action="/" modelAttribute="product" method="post">
+<form:form action="/products/list" modelAttribute="product" method="post">
     <div class="container mt-5">
     <div class="row justify-content-center">
     <div class="col-md-6">

@@ -1,8 +1,8 @@
 package com.adminPanel.app.controller;
 
+import com.adminPanel.app.dao.ProductDAOImp;
 import com.adminPanel.app.model.Product;
 import com.adminPanel.app.model.ProductDetails;
-import com.adminPanel.app.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,10 +11,15 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
+@RequestMapping("/products")
 public class ProductController {
 
+    private final ProductDAOImp productDAOImp;
+
     @Autowired
-    private ProductService productService;
+    public ProductController(ProductDAOImp productDAOImp) {
+        this.productDAOImp = productDAOImp;
+    }
 
     @GetMapping("/addProduct")
     public String showAddForm(Model model) {
@@ -26,40 +31,40 @@ public class ProductController {
 
     @PostMapping("/processAddProduct")
     public String addProduct(@ModelAttribute("product") Product product) {
-        productService.addProduct(product);
-        return "redirect:/";
+        productDAOImp.addProduct(product);
+        return "redirect:/products/list";
     }
 
     @GetMapping("/updateProduct")
     public String showUpdateForm(@RequestParam("productId") int id, Model model) {
-        Product product = productService.findById(id);
+        Product product = productDAOImp.findProductById(id);
         model.addAttribute("product", product);
         return "update-product";
     }
 
     @PostMapping("/processUpdateProduct")
     public String updateProduct(@ModelAttribute("product") Product product) {
-        productService.updateProduct(product);
-        return "redirect:/";
+        productDAOImp.updateProduct(product);
+        return "redirect:/products/list";
     }
 
     @GetMapping("/list")
     public String listProducts(Model model) {
-        List<Product> products = productService.getAllProducts();
+        List<Product> products = productDAOImp.getAllProducts();
         model.addAttribute("products", products);
         return "all-products";
     }
 
     @GetMapping("/productDetails")
     public String showProductDetails(@RequestParam("productId") int id, Model model) {
-        Product product = productService.findById(id);
+        Product product = productDAOImp.findProductById(id);
         model.addAttribute("product", product);
         return "product-details";
     }
 
     @GetMapping("/deleteProduct")
     public String deleteProduct(@RequestParam("productId") int id) {
-        productService.deleteProduct(id);
-        return "redirect:/";
+        productDAOImp.deleteProduct(id);
+        return "redirect:/products/list";
     }
 }
