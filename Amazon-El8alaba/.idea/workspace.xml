@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1ef1dbb-387a-4b65-ba6a-f573c6481aaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Project Screens/Add Product Page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Screens/Product Details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Screens/Products-list-Product Added.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Screens/Products-list-Product Deleted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Screens/Update Product Page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Screens/Updated-Product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Amazon-El8alaba.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Amazon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/jaspic-providers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/jaspic-providers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/tomcat-users.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.smarttomcat/Amazon/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Add Product Page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.jpb/jpb-settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/jaspic-providers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/jaspic-providers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/tomcat-users.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/.smarttomcat/Amazon/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/Catalina/localhost/ROOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/jaspic-providers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/jaspic-providers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/tomcat-users.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/catalina.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/catalina.2025-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/catalina.2025-01-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/catalina.2025-01-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/catalina.2025-01-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/host-manager.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/host-manager.2025-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/host-manager.2025-01-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/host-manager.2025-01-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/host-manager.2025-01-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost.2025-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost.2025-01-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost.2025-01-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost.2025-01-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost_access_log.2025-01-18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost_access_log.2025-01-19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost_access_log.2025-01-20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost_access_log.2025-01-21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/localhost_access_log.2025-01-22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/manager.2025-01-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/manager.2025-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/manager.2025-01-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/manager.2025-01-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/logs/manager.2025-01-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/java/com/adminPanel/app/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/java/com/adminPanel/app/dao/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/java/com/adminPanel/app/dao/ProductDAOImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/java/com/adminPanel/app/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/java/com/adminPanel/app/model/ProductDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/webapp/WEB-INF/application-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/webapp/WEB-INF/view/add-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/webapp/WEB-INF/view/all-products.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/webapp/WEB-INF/view/product-details.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/webapp/WEB-INF/view/update-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/webapp/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AmazonEl8alaba/src/main/webapp/resources/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Details.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Products-list-Product Added.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Products-list-Product Deleted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Update Product Page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Updated-Product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/Catalina/localhost/ROOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/jaspic-providers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/jaspic-providers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/tomcat-users.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/catalina.2025-01-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/host-manager.2025-01-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/localhost.2025-01-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/localhost_access_log.2025-01-22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/manager.2025-01-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sql_script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/add_002dproduct_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/add_002dproduct_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/all_002dproducts_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/all_002dproducts_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/product_002ddetails_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/product_002ddetails_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/update_002dproduct_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/update_002dproduct_jsp.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rzV48uUFHjJJLXao4sAPblS3S7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.Amazon [clean].executor": "Run",
+    "Maven.Amazon [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.Unnamed.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Learning/REPOs/Amazon/Amazon-El8alaba/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="F:\Learning\REPOs\Amazon\Amazon-El8alaba" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="F:\Learning\REPOs\Amazon\Amazon-El8alaba\src\main\webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.91" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/Tomcat 9.0" />
+          <option name="version" value="9.0.91.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="Amazon" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1ef1dbb-387a-4b65-ba6a-f573c6481aaf" name="Changes" comment="" />
+      <created>1737561701552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737561701552</updated>
+      <workItem from="1737561701555" duration="5730000" />
+      <workItem from="1737568290673" duration="631000" />
+      <workItem from="1737570329244" duration="1295000" />
+      <workItem from="1737571763244" duration="39000" />
+      <workItem from="1737571992178" duration="61000" />
+      <workItem from="1737572070009" duration="95000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
