@@ -12,7 +12,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">${product.productName}</h5>
-                    <p class="card-text">Expiration Date: ${product.productDetails.expiryDate}</p>
+                    <p class="card-text">Expiration Date: ${product.productDetails.expirationDate}</p>
                     <p class="card-text">Manufacturer: ${product.productDetails.manufacturer}</p>
                     <p class="card-text">Price: ${product.productDetails.price}</p>
                     <p class="card-text">Available: ${product.productDetails.available ? 'Yes' : 'No'}</p>

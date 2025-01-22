@@ -18,6 +18,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/products")
 public class ProductController {
+
     @InitBinder
     public void initBinder(WebDataBinder binder) {
         binder.registerCustomEditor(Date.class, new PropertyEditorSupport() {
@@ -44,7 +45,12 @@ public class ProductController {
     @GetMapping("/addProduct")
     public String showAddForm(Model model) {
         Product product = new Product();
-        product.setProductDetails(new ProductDetails());
+        ProductDetails productDetails = new ProductDetails();
+
+        // Link ProductDetails to Product
+        productDetails.setProduct(product);
+        product.setProductDetails(productDetails);
+
         model.addAttribute("product", product);
         System.out.println("ProductController.showAddForm");
         return "add-product";
@@ -52,10 +58,13 @@ public class ProductController {
 
     @PostMapping("/processAddProduct")
     public String addProduct(@ModelAttribute("product") Product product) {
-        product.getProductDetails().setProduct(product);
+        // Ensure ProductDetails is linked to Product
+        if (product.getProductDetails() != null) {
+            product.getProductDetails().setProduct(product);
+        }
+
         productDAOImp.addProduct(product);
         System.out.println("ProductController.addProduct");
-
         return "redirect:/products/list";
     }
 
@@ -67,23 +76,25 @@ public class ProductController {
         return "all-products";
     }
 
-
     @GetMapping("/updateProduct")
-    public String showUpdateForm(@RequestParam("productId") int  id, Model model) {
-        System.out.println("ProductController.showUpdateForm");
+    public String showUpdateForm(@RequestParam("productId") int id, Model model) {
         Product product = productDAOImp.findProductById(id);
         model.addAttribute("product", product);
+        System.out.println("ProductController.showUpdateForm");
         return "update-product";
     }
 
     @PostMapping("/processUpdateProduct")
     public String updateProduct(@ModelAttribute("product") Product product) {
-        System.out.println("ProductController.updateProduct");
+        // Ensure ProductDetails is linked to Product
+        if (product.getProductDetails() != null) {
+            product.getProductDetails().setProduct(product);
+        }
+
         productDAOImp.updateProduct(product);
+        System.out.println("ProductController.updateProduct");
         return "redirect:/products/list";
     }
-
-
 
     @GetMapping("/productDetails")
     public String showProductDetails(@RequestParam("productId") int id, Model model) {

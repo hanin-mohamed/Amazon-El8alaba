@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Amazon.iml" filepath="$PROJECT_DIR$/.idea/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AmazonEl8alaba/Amazon.iml" filepath="$PROJECT_DIR$/AmazonEl8alaba/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Amazon-El8alaba.iml" filepath="$PROJECT_DIR$/.idea/Amazon-El8alaba.iml" />
     </modules>
   </component>
 </project>

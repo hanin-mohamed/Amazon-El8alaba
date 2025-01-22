@@ -20,6 +20,6 @@ public class Product {
     @Column(name = "name")
     private String productName;
 
-    @OneToOne(mappedBy = "product")
+    @OneToOne(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
     private ProductDetails productDetails;
 }
