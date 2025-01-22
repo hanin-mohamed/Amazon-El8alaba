@@ -58,7 +58,6 @@ public class ProductController {
 
     @PostMapping("/processAddProduct")
     public String addProduct(@ModelAttribute("product") Product product) {
-        // Ensure ProductDetails is linked to Product
         if (product.getProductDetails() != null) {
             product.getProductDetails().setProduct(product);
         }
@@ -86,7 +85,6 @@ public class ProductController {
 
     @PostMapping("/processUpdateProduct")
     public String updateProduct(@ModelAttribute("product") Product product) {
-        // Ensure ProductDetails is linked to Product
         if (product.getProductDetails() != null) {
             product.getProductDetails().setProduct(product);
         }

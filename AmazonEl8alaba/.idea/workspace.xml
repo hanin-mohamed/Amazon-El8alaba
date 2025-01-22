@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="735dbc97-b86f-4785-bff0-e2c629b99fb0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../sql_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../sql_script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/SESSIONS.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/highlightedFiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adminPanel/app/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/catalina.2025-01-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/catalina.2025-01-22.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/localhost.2025-01-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/localhost.2025-01-22.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/localhost_access_log.2025-01-22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/localhost_access_log.2025-01-22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/add_002dproduct_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/add_002dproduct_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/all_002dproducts_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/all_002dproducts_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/product_002ddetails_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/product_002ddetails_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/update_002dproduct_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../work/Catalina/localhost/ROOT/org/apache/jsp/WEB_002dINF/view/update_002dproduct_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +65,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Maven.Amazon [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Amazon [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Smart Tomcat.Tomcat: Amazon.executor&quot;: &quot;Run&quot;,
@@ -45,15 +74,15 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Learning/REPOs/Amazon/AmazonEl8alaba/src/main/webapp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Learning/REPOs/Amazon-El8alaba/AmazonEl8alaba&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -70,7 +99,7 @@
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="catalinaBase" value="F:\Learning\REPOs\Amazon\AmazonEl8alaba" />
-      <option name="contextPath" value="" />
+      <option name="contextPath" value="/" />
       <option name="docBase" value="F:\Learning\REPOs\Amazon\AmazonEl8alaba\src\main\webapp" />
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
@@ -99,10 +128,24 @@
       <workItem from="1737493138943" duration="59000" />
       <workItem from="1737548963066" duration="828000" />
       <workItem from="1737552431470" duration="515000" />
+      <workItem from="1737568410902" duration="432000" />
+      <workItem from="1737569550457" duration="729000" />
+      <workItem from="1737570324780" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
