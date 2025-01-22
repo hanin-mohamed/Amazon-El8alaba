@@ -6,9 +6,11 @@ import com.adminPanel.app.model.ProductDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.beans.PropertyEditorSupport;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -51,18 +53,41 @@ public class ProductController {
         product.setProductDetails(productDetails);
 
         model.addAttribute("product", product);
-        System.out.println("ProductController.showAddForm");
         return "add-product";
     }
 
     @PostMapping("/processAddProduct")
-    public String addProduct(@ModelAttribute("product") Product product) {
+    public String addProduct(@Valid @ModelAttribute("product") Product product, BindingResult result) {
+        if (result.hasErrors()) {
+            return "add-product";
+        }
+
         if (product.getProductDetails() != null) {
             product.getProductDetails().setProduct(product);
         }
 
         productDAOImp.addProduct(product);
-        System.out.println("ProductController.addProduct");
+        return "redirect:/products/list";
+    }
+
+    @GetMapping("/updateProduct")
+    public String showUpdateForm(@RequestParam("productId") int id, Model model) {
+        Product product = productDAOImp.findProductById(id);
+        model.addAttribute("product", product);
+        return "update-product";
+    }
+
+    @PostMapping("/processUpdateProduct")
+    public String updateProduct(@Valid @ModelAttribute("product") Product product, BindingResult result) {
+        if (result.hasErrors()) {
+            return "update-product";
+        }
+
+        if (product.getProductDetails() != null) {
+            product.getProductDetails().setProduct(product);
+        }
+
+        productDAOImp.updateProduct(product);
         return "redirect:/products/list";
     }
 
@@ -70,26 +95,12 @@ public class ProductController {
     public String listProducts(Model model) {
         List<Product> products = productDAOImp.getAllProducts();
         model.addAttribute("products", products);
-        System.out.println("ProductController.listProducts");
         return "all-products";
     }
 
-    @GetMapping("/updateProduct")
-    public String showUpdateForm(@RequestParam("productId") int id, Model model) {
-        Product product = productDAOImp.findProductById(id);
-        model.addAttribute("product", product);
-        System.out.println("ProductController.showUpdateForm");
-        return "update-product";
-    }
-
-    @PostMapping("/processUpdateProduct")
-    public String updateProduct(@ModelAttribute("product") Product product) {
-        if (product.getProductDetails() != null) {
-            product.getProductDetails().setProduct(product);
-        }
-
-        productDAOImp.updateProduct(product);
-        System.out.println("ProductController.updateProduct");
+    @GetMapping("/deleteProduct")
+    public String deleteProduct(@RequestParam("productId") int id) {
+        productDAOImp.deleteProduct(id);
         return "redirect:/products/list";
     }
 
@@ -97,14 +108,6 @@ public class ProductController {
     public String showProductDetails(@RequestParam("productId") int id, Model model) {
         Product product = productDAOImp.findProductById(id);
         model.addAttribute("product", product);
-        System.out.println("ProductController.showProductDetails");
         return "product-details";
-    }
-
-    @GetMapping("/deleteProduct")
-    public String deleteProduct(@RequestParam("productId") int id) {
-        productDAOImp.deleteProduct(id);
-        System.out.println("ProductController.deleteProduct");
-        return "redirect:/products/list";
     }
 }

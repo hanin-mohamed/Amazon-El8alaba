@@ -10,7 +10,7 @@
 <body>
 <div class="container mt-5">
     <h1>Add New Product</h1>
-    <form:form action="processAddProduct" modelAttribute="product" method="post">
+    <form:form action="/products/processAddProduct" modelAttribute="product" method="post">
         <div class="form-group">
             <label for="productName">Product Name</label>
             <form:input type="text" cssClass="form-control" path="productName" placeholder="Enter product name" />

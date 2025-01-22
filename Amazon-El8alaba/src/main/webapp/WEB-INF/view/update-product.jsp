@@ -12,7 +12,6 @@
     <form:form action="/products/processUpdateProduct" modelAttribute="product" method="post">
         <div class="row justify-content-center">
             <div class="col-md-6">
-
                 <form:hidden path="id" />
                 <form:hidden path="productDetails.id" />
 
@@ -34,7 +33,6 @@
                     <form:errors path="productDetails.manufacturer" cssClass="text-danger" />
                 </div>
 
-                <!-- Price -->
                 <div class="form-group">
                     <label for="productDetails.price">Price</label>
                     <form:input type="number" cssClass="form-control" path="productDetails.price" placeholder="Price" />

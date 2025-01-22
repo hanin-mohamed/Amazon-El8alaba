@@ -36,5 +36,8 @@
     <PostResources base="C:/Users/pc/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jstl-1.2.jar"/>
     <PostResources base="C:/Users/pc/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/commons-fileupload-1.4.jar"/>
     <PostResources base="C:/Users/pc/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/commons-io-2.11.0.jar"/>
+    <PostResources base="C:/Users/pc/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/hibernate-validator-6.2.0.Final.jar"/>
+    <PostResources base="C:/Users/pc/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.validation-api-2.0.2.jar"/>
+    <PostResources base="C:/Users/pc/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.el-3.0.0.jar"/>
   </Resources>
 </Context>
