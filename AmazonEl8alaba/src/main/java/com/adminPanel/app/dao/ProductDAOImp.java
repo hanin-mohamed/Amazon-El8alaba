@@ -28,19 +28,24 @@ public class ProductDAOImp implements ProductDAO {
         Session session = sessionFactory.getCurrentSession();
         session.save(product);
         logger.info("Product added: " + product);
+        System.out.println("ProductDAOImp.addProduct");
+
     }
 
     @Override
     @Transactional
     public void updateProduct(Product product) {
+
         Session session = sessionFactory.getCurrentSession();
         session.update(product);
         logger.info("Product updated: " + product);
+        System.out.println("ProductDAOImp.updateProduct");
     }
 
     @Override
     @Transactional
     public void deleteProduct(int id) {
+
         Session session = sessionFactory.getCurrentSession();
         Product product = session.get(Product.class, id);
         if (product != null) {
@@ -50,6 +55,7 @@ public class ProductDAOImp implements ProductDAO {
             logger.warning("Product not found for deletion. ID: " + id);
             throw new RuntimeException("Product not found with ID: " + id);
         }
+        System.out.println("ProductDAOImp.deleteProduct");
     }
 
     @Override
@@ -62,6 +68,9 @@ public class ProductDAOImp implements ProductDAO {
             throw new RuntimeException("Product not found with ID: " + id);
         }
         logger.info("Product found: " + product);
+
+        System.out.println("ProductDAOImp.findProductById");
+
         return product;
     }
 
@@ -71,6 +80,7 @@ public class ProductDAOImp implements ProductDAO {
         Session session = sessionFactory.getCurrentSession();
         List<Product> products = session.createQuery("from Product", Product.class).getResultList();
         logger.info("Products retrieved: " + products.size());
+        System.out.println("ProductDAOImp.getAllProducts");
         return products;
     }
 }

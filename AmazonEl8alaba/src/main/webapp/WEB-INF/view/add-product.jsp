@@ -10,16 +10,16 @@
 <body>
 <div class="container mt-5">
     <h1>Add New Product</h1>
-    <form:form action="processAddProduct" modelAttribute="product" method="post">
+    <form:form action="/products/processAddProduct" modelAttribute="product" method="post">
         <div class="form-group">
             <label for="productName">Product Name</label>
             <form:input type="text" cssClass="form-control" path="productName" placeholder="Enter product name" />
             <form:errors path="productName" cssClass="text-danger" />
         </div>
         <div class="form-group">
-            <label for="productDetails.expiryDate">Expiration Date</label>
-            <form:input type="date" cssClass="form-control" path="productDetails.expiryDate" />
-            <form:errors path="productDetails.expiryDate" cssClass="text-danger" />
+            <label for="productDetails.expirationDate">Expiration Date</label>
+            <form:input type="date" cssClass="form-control" path="productDetails.expirationDate" />
+            <form:errors path="productDetails.expirationDate" cssClass="text-danger" />
         </div>
         <div class="form-group">
             <label for="productDetails.manufacturer">Manufacturer</label>
