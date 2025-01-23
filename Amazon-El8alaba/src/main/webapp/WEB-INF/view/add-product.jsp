@@ -4,13 +4,13 @@
 <html>
 <head>
     <title>Add New Product</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/bootstrap.min.css" />">
     <link rel="stylesheet" type="text/css" href="<c:url value='/resources/css/style.css' />">
 </head>
 <body>
 <div class="container mt-5">
     <h1>Add New Product</h1>
-    <form:form action="/products/processAddProduct" modelAttribute="product" method="post">
+    <form:form action="processAddProduct" modelAttribute="product" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="productName">Product Name</label>
             <form:input type="text" cssClass="form-control" path="productName" placeholder="Enter product name" />
@@ -35,6 +35,18 @@
             <form:errors path="productDetails.price" cssClass="text-danger" />
         </div>
 
+
+    <c:if test="${not empty product.productDetails.image}">
+        <img src="data:image/jpeg;base64,${product.productDetails.imageBase64}" alt="Product Image" class="img-fluid" />
+    </c:if>
+
+        <div class="form-group">
+            <label for="productDetails.image">Product Image</label>
+            <input type="file" class="form-control" name="image" accept="image/*" />
+            <form:errors path="productDetails.image" cssClass="text-danger" />
+        </div>
+
+
         <div class="form-group">
             <label for="productDetails.available">Availability</label>
             <form:select cssClass="form-control" path="productDetails.available">
@@ -44,7 +56,10 @@
             <form:errors path="productDetails.available" cssClass="text-danger" />
         </div>
 
-        <button type="submit" class="btn btn-primary">Add Product</button>
+</div>
+<div class="form-group text-center">
+    <button type="submit" class="btn btn-primary">Add Product</button>
+</div>
     </form:form>
 </div>
 </body>

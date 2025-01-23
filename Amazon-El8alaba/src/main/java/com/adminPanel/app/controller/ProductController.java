@@ -9,9 +9,11 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
 import java.beans.PropertyEditorSupport;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -57,13 +59,18 @@ public class ProductController {
     }
 
     @PostMapping("/processAddProduct")
-    public String addProduct(@Valid @ModelAttribute("product") Product product, BindingResult result) {
+    public String addProduct(@Valid @ModelAttribute("product") Product product, BindingResult result,
+                             @RequestParam("image") MultipartFile image) throws IOException {
         if (result.hasErrors()) {
             return "add-product";
         }
 
         if (product.getProductDetails() != null) {
             product.getProductDetails().setProduct(product);
+        }
+
+        if (!image.isEmpty()) {
+            product.getProductDetails().setImage(image.getBytes());
         }
 
         productDAOImp.addProduct(product);
@@ -78,7 +85,8 @@ public class ProductController {
     }
 
     @PostMapping("/processUpdateProduct")
-    public String updateProduct(@Valid @ModelAttribute("product") Product product, BindingResult result) {
+    public String updateProduct(@Valid @ModelAttribute("product") Product product, BindingResult result
+    , @RequestParam("image") MultipartFile image) throws IOException {
         if (result.hasErrors()) {
             return "update-product";
         }
@@ -86,7 +94,9 @@ public class ProductController {
         if (product.getProductDetails() != null) {
             product.getProductDetails().setProduct(product);
         }
-
+        if (!image.isEmpty()) {
+            product.getProductDetails().setImage(image.getBytes());
+        }
         productDAOImp.updateProduct(product);
         return "redirect:/products/list";
     }

@@ -4,9 +4,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.validation.Valid;
 import javax.validation.constraints.*;
 import javax.persistence.*;
+import java.util.Base64;
 import java.util.Date;
 
 @Entity
@@ -33,10 +33,17 @@ public class ProductDetails {
     @Column(name = "manufacturer")
     private String manufacturer;
 
+
     @NotNull(message = "Price is required")
     @Positive(message = "Price must be a positive number")
     @Column(name = "price")
     private double price;
+
+
+    @Lob
+    @Column(name = "image", columnDefinition = "LONGBLOB")
+    private byte[] image;
+
 
     @NotNull(message = "Availability is required")
     @Column(name = "available")
@@ -45,4 +52,17 @@ public class ProductDetails {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "product_id")
     private Product product;
+
+
+
+
+    @Transient
+    private String imageBase64;
+
+    public String getImageBase64() {
+        if (this.image != null) {
+            return Base64.getEncoder().encodeToString(this.image);
+        }
+        return null;
+    }
 }

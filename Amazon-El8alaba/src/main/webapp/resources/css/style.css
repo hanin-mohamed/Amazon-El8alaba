@@ -1,6 +1,42 @@
-/* ملف style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
 
-/* تحسين مظهر الجدول */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
 .table {
     width: 100%;
     margin-bottom: 1rem;
@@ -24,7 +60,7 @@
     border-top: 2px solid #dee2e6;
 }
 
-/* تحسين مظهر الأزرار */
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -81,7 +117,7 @@
     border-color: #bd2130;
 }
 
-/* تحسين مظهر النماذج */
+/* تنسيق حقول الإدخال */
 .form-control {
     display: block;
     width: 100%;
@@ -104,7 +140,7 @@
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-/* تحسين مظهر العناوين */
+/* تنسيق العناوين */
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -136,40 +172,7 @@ h6 {
     font-size: 1rem;
 }
 
-/* تحسين مظهر الحاويات */
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-}
-
-/* تحسين مظهر الصفوف والأعمدة */
+/* تنسيق الصفوف والأعمدة */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -184,9 +187,11 @@ h6 {
     padding-left: 15px;
 }
 
-/* تحسين مظهر الرسائل الخطأ */
+
 .error {
     color: #dc3545;
     font-size: 0.875rem;
     margin-top: 0.25rem;
 }
+
+

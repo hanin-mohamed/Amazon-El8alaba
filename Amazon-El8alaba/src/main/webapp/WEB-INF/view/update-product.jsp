@@ -9,7 +9,7 @@
 <body>
 <div class="container mt-5">
     <h1 class="text-center mb-4">Update Product</h1>
-    <form:form action="/products/processUpdateProduct" modelAttribute="product" method="post">
+    <form:form action="/products/processUpdateProduct" modelAttribute="product" method="post" enctype="multipart/form-data">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <form:hidden path="id" />
@@ -37,6 +37,12 @@
                     <label for="productDetails.price">Price</label>
                     <form:input type="number" cssClass="form-control" path="productDetails.price" placeholder="Price" />
                     <form:errors path="productDetails.price" cssClass="text-danger" />
+                </div>
+
+                <div class="form-group">
+                    <label for="productDetails.image">Product Image</label>
+                    <input type="file" class="form-control" name="image" accept="image/*" />
+                    <form:errors path="productDetails.image" cssClass="text-danger" />
                 </div>
 
                 <div class="form-group">

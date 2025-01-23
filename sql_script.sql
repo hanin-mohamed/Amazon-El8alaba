@@ -16,6 +16,10 @@ create table product_details(
                                 foreign key (product_id) references product(id)
 );
 
+ALTER TABLE product_details
+ADD COLUMN image LONGBLOB;
+
+
 INSERT INTO amazonEl8alaba.product (id, name) VALUES (1, 'milk');
 INSERT INTO amazonEl8alaba.product (id, name) VALUES (2, 'fish');
 INSERT INTO amazonEl8alaba.product (id, name) VALUES (3, 'cheese');

@@ -1645,3 +1645,4 @@ List of constraint violations:[
 22-Jan-2025 22:08:14.000 INFO [Thread-6] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
 22-Jan-2025 22:08:40.542 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
 22-Jan-2025 22:08:42.146 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+22-Jan-2025 22:20:24.815 INFO [Thread-6] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
