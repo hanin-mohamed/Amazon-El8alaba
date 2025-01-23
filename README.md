@@ -16,7 +16,7 @@ This project is a simple product management system that allows users to add, upd
 
 ### Backend
 - **Java**: The primary programming language used for backend logic.
-- **Spring Boot**: Used for building the backend of the application, handling REST APIs, and managing dependencies.
+- **Spring MVC**: Used for building the backend of the application, handling REST APIs, and managing dependencies.
 - **Hibernate**: Used as an ORM (Object-Relational Mapping) tool to interact with the database.
 
 ### Frontend
@@ -25,7 +25,11 @@ This project is a simple product management system that allows users to add, upd
 - **CSS**: Used for additional custom styling.
 
 ### Database
-- **MySQL**: Used as the relational database management system to store product data.
+- **MySQL**: Used as the relational database management system to store products & Products Details.
+- **Database connection Configuration**
+spring.datasource.url=jdbc:mysql://localhost:3306/amazon_el8alaba
+spring.datasource.username=your_username
+spring.datasource.password=your_password
 
 ### Other Tools
 - **Maven**: Used for dependency management and building the project.
