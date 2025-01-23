@@ -45,3 +45,4 @@
 23-Jan-2025 17:01:49.734 INFO [Thread-6] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
 23-Jan-2025 17:02:08.659 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
 23-Jan-2025 17:02:09.336 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+23-Jan-2025 17:35:03.519 INFO [Thread-6] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
