@@ -53,16 +53,4 @@ public class ProductDetails {
     @JoinColumn(name = "product_id")
     private Product product;
 
-
-
-
-    @Transient
-    private String imageBase64;
-
-    public String getImageBase64() {
-        if (this.image != null) {
-            return Base64.getEncoder().encodeToString(this.image);
-        }
-        return null;
-    }
 }

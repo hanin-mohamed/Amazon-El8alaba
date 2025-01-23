@@ -36,6 +36,8 @@ spring.datasource.password=your_password
 - **Git/GitHub**: Used for version control and collaboration.
 
 
+## Project Screens
+
 | **Add Product Page** | **Add Product With Validation** | **Add Product with Image Upload** |
 |----------------------|---------------------------------|-----------------------------------|
 | ![Add Product Page](Project%20Screens/Add%20Product%20Page.png) | ![Add Product With Validation](Project%20Screens/Add%20Product%20With%20Validation.png) | ![Add product-support upload image](Project%20Screens/Add%20product-support%20upload%20image.png) |
