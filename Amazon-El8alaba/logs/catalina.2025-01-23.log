@@ -1185,3 +1185,47 @@
  com.mchange.v2.resourcepool.BasicResourcePool$5.run(BasicResourcePool.java:1354)
 23-Jan-2025 17:01:50.105 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 23-Jan-2025 17:01:50.132 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Jan-2025 17:02:05.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.91
+23-Jan-2025 17:02:05.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 2 2024 12:35:51 UTC
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.91.0
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_201\jre
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\Learning\REPOs\Amazon\Amazon-El8alaba
+23-Jan-2025 17:02:05.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+23-Jan-2025 17:02:05.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+23-Jan-2025 17:02:05.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\Learning\REPOs\Amazon\Amazon-El8alaba
+23-Jan-2025 17:02:05.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\Learning\REPOs\Amazon\Amazon-El8alaba\temp
+23-Jan-2025 17:02:05.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\Learning\REPOs\Amazon\Amazon-El8alaba\conf\logging.properties
+23-Jan-2025 17:02:05.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Jan-2025 17:02:05.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\IntelliJ IDEA 2023.3.3\lib\idea_rt.jar=53779:C:\Program Files\IntelliJ IDEA 2023.3.3\bin
+23-Jan-2025 17:02:05.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+23-Jan-2025 17:02:05.446 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+23-Jan-2025 17:02:05.447 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23-Jan-2025 17:02:05.447 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-Jan-2025 17:02:05.477 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+23-Jan-2025 17:02:05.907 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Jan-2025 17:02:05.940 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [850] milliseconds
+23-Jan-2025 17:02:05.978 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Jan-2025 17:02:05.978 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.91]
+23-Jan-2025 17:02:05.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\Learning\REPOs\Amazon\Amazon-El8alaba\conf\Catalina\localhost\ROOT.xml]
+23-Jan-2025 17:02:08.630 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2025 17:02:09.029 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [367] milliseconds.
+23-Jan-2025 17:02:09.336 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+23-Jan-2025 17:02:13.004 INFO [MLog-Init-Reporter] com.mchange.v2.log.MLog. MLog clients using java 1.4+ standard logging.
+23-Jan-2025 17:02:13.155 INFO [main] com.mchange.v2.c3p0.C3P0Registry. Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+23-Jan-2025 17:02:13.725 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.2.2.Final}
+23-Jan-2025 17:02:13.728 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+23-Jan-2025 17:02:13.730 INFO [main] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+23-Jan-2025 17:02:13.868 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23-Jan-2025 17:02:14.194 INFO [main] com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource. Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1bqomwyb814z6op61vcq9ui|41cf4272, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1bqomwyb814z6op61vcq9ui|41cf4272, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3307/amazonEl8alaba?useSSL=false&serverTimezone=UTC, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 30000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+23-Jan-2025 17:02:14.222 WARNING [main] com.mchange.v2.resourcepool.BasicResourcePool. Bad pool size config, start 3 < min 5. Using 5 as start.
+23-Jan-2025 17:02:14.739 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+23-Jan-2025 17:02:15.790 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.2.0.Final
+23-Jan-2025 17:02:18.539 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 9202 ms
+23-Jan-2025 17:02:18.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\Learning\REPOs\Amazon\Amazon-El8alaba\conf\Catalina\localhost\ROOT.xml] has finished in [12,573] ms
+23-Jan-2025 17:02:18.568 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Jan-2025 17:02:18.604 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12663] milliseconds
